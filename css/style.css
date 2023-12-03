@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color:aliceblue;
+  }
+  h2{
+    font-family: var(--main-text-font);
+    font-size: 34px;
+    text-align: center;
+  }
+  .space-between{
+    justify-content: space-between;
+  }
+  .container{
+    width: 100%;
+    height: auto;
+  }
+  #header {
+    width: 100%;
+    height: 70px;
+    background-color: #0092b1;
+    color: rgb(158, 42, 42);
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+  }
+  
+  .menu {
+    padding: 30px;
+    color: aliceblue;
+  }
+  
+  .logo img {
+    height: 78px;
+    padding: 10px;
+  }
+  
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #0092b1;
+  
+  }
+  
+  .footer-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100px;
+  }
+  
+  
+  .dn {
+    margin: 240px auto; /* Thay đổi giá trị margin để tạo khoảng cách */
+    padding: 20px;
+    background-color: #73cada;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Sử dụng giá trị tối đa cho khung */
+    width: 100%; /* Sử dụng giá trị phần trăm cho khung */
+  }
+  
+  .form-group {
+    margin-bottom: 50px;
+    
+  
+  }
+  
+  .form-group label {
+    margin: 0 10px;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+  
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 13px 20px;
+    text-align: center;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .form-group button {
+    width: 100px;
+    padding: 12px;
+    background-color: #0092b1;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 300px;
+  }
+  
+  .content {
+    margin: 100px;
+    font-family: var(--main-text-font);
+    font-size: 20px;
+    height: auto;
+  
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0 100px;
+  
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .checkbox-cell {
+    width: 30px;
+    text-align: center;
+  }
+  
+  .checkbox-cell input[type="checkbox"] {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  
+  .footer-container {
+    background-color: #0092b1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .view-button {
+    background-color: #73cada;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .view-button:hover {
+    background-color: #0092b1;
+  }
+  
+  .view {
+    margin: 40px;
+    text-align: right;
+  
+  }
+  
+  .bn {
+    flex: 2;
+    display: flex;
+  }
+  
+  .bn > li {
+    padding: 0 100px;
+    position: relative;
+    margin: 13px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .kedon h3 {
+    padding: 10px 12px;
+    text-align: center;
+  
+  }
+  .kedon{
+    padding: 0 40px;
+    margin: 100px;
+    font-family: var(--main-text-font);
+    font-size: 20px;
+  }
+  .dt {
+    margin: 12px;
+  }
+  
+  .bottom button {
+    width: 150px;
+    height: 40px;
+    padding: 12px;
+    display: flex;
+    background-color: #73cada;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 20px;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .bottom button:hover {
+    background-color: #0092b1;
+  }
+  
+  .bottom {
+    margin: 20px;
+  }
+  .banthuoc{
+    margin: 100px;
+  }
+  .thuoc{
+      padding: 70px;
+      font-size: 18px;
+      width: 70%; /* Độ rộng của form */
+      margin: 0 200px; /* Canh giữa form */
+      /* Màu nền của form */
+      border-radius: 10px; /* Bo tròn các góc của form */
+  }
+  .thuoc input {
+    font-size: 25px; /* Kích thước chữ to hơn */
+    text-align: center; /* Canh giữa chữ */
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid  #0092b1;
+    margin: 5px 12pc;
+  }
+  .thuoc label{
+    font-size: 25px; /* Kích thước chữ to hơn */
+    text-align: center;
+    margin: 12px;
+  }
+  .nut input[type="submit"] {
+    background-color: #73cada;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 30px 500px;
+  }
+  
+  .nut input[type="submit"]:hover {
+    background-color: #0092b1;
+  }
+  .t{
+    margin: 100px;
+  }
+  
+  
